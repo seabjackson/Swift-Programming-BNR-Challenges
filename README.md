@@ -1,6 +1,6 @@
 # Swift-Programming-BNR-Challenges
 
-
+![Swift Logo](https://cloud.githubusercontent.com/assets/11398615/11906613/d49260c0-a608-11e5-8f6e-146dc46899b1.jpg)
 
 ## **Objective**: 
 To catalog all the challenges in the book, and 
