@@ -1,5 +1,5 @@
 # Swift-Programming-BNR-Challenges
-![]({{site.baseurl}}/swift-logo-100468467-primary.idge.jpg)
+![]({{site.baseurl}}swift-logo-100468467-primary.idge.jpg)
 
 
 ## **Objective**: 
