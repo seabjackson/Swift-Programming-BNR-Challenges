@@ -1,5 +1,6 @@
 # Swift-Programming-BNR-Challenges
-![Swift-Programming-BNR-Challenges/swift-logo-100468467-primary.idge.jpg]({{site.baseurl}}/swift-logo-100468467-primary.idge.jpg)
+![swift-logo-100468467-primary.idge.jpg]({{site.baseurl}}/Swift-Programming-BNR-Challenges/swift-logo-100468467-primary.idge.jpg)
+
 
 ## **Objective**: 
 To catalog all the challenges in the book, and 
