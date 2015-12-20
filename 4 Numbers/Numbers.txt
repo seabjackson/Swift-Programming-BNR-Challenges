@@ -1,1 +1,40 @@
-# Numbers
+Challenge 4
+
+What is the binary representation of -1 using an 8-bit signed integer?
+If that same bit pattern is interpretated as an 8-bit unsigned integer, what
+would the value be?
+
+Let's approach this in two ways: Firstly, for the 8-bit signed integer, the left 
+most binary digit is reserved for the sign of the number, where 1 is negative,
+and 0 is positive.
+
+Check this out:
+
+-128|64|32|16| 8| 4| 2| 1|
+   0| 0| 1| 0| 0| 1| 1| 0| *** This is 32 in decimal. Note the left most digit is 0 X -128.
+   1| 0| 1| 0| 0| 0| 1| 0| *** This is -94 (1 * -128 + 1 * 32 + 1 * 2 = -128 + 32 + 2).
+
+Another way to find the negative number in binary is to use the two's complement. That is, we
+change 1s to 0s, and 0s to 1s,then we add 1. thus we could have achieved -94 in binary, by
+first usings its positive value, find the two's complement of that then adding 1, like so:
+
+-128|64|32|16| 8| 4| 2| 1|
+   0| 1| 0| 1| 1| 1| 1| 0| *** This is positive 94 in binary.
+
+   1| 0| 1| 0| 0| 0| 0| 1| *** The two's complement just switches 1s and 0s
+   0| 0| 0| 0| 0| 0| 0| 1| *** Adding 1 to the two's complement of 94 will give us -94
+   1| 0| 1| 0| 0| 0| 1| 0| *** We now have -94 in binary.  
+	
+In answering the challenge let us use the second approach, which is to find the two's complement of 1, and add 1 to it
+   0| 0| 0| 0| 0| 0| 0| 1| *** This is 1 in binary.
+
+   1| 1| 1| 1| 1| 1| 1| 0| *** This is the two's complement (remember we just switch 1s for 0s, and vice versa) 
+   0| 0| 0| 0| 0| 0| 0| 1| *** add 1 in binary two the two's complement to get the negative number.
+   1| 1| 1| 1| 1| 1| 1| 1| *** This is -1 as an 8-bit signed integer.
+
+   As an unsigned 8-bit integer we can calculate 11111111 in decimal like so: 
+    128|64|32|16| 8| 4| 2| 1|  *** Note unsigned integers are all positive
+      1| 1| 1| 1| 1| 1| 1| 1|  ***(128 + 64 + 32 + 16 + 8 + 4 + 2 + 1) = 255
+
+
+    
