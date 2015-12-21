@@ -1,5 +1,7 @@
 //: Playground - noun: a place where people can play
 
+// Challenge 3
+// Add an additional else if statement to the town sizing code to see if your town's population is very large/ Choose your own population thresholds. Set the message variable accordingly.
 import Cocoa
 
 var population: Int = 75000
