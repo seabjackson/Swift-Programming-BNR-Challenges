@@ -32,4 +32,7 @@ Use a loop to count by 2 from 0 up to 100. Use another loop to make sure the fir
 ### Challenge 7: Strings
 Replace the "Hello" string with an instance created out of its corresponding Unicode scalars. You can find the appropriate codes on the internet.
 
+### Challenge 8: Optionals
+Accessing an optional's value is nil will result in a runtime error. Make this mistake by force-unwrapping an optional when it is nil. Examine the error and understand whatit is telling you
+
 
