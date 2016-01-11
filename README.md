@@ -33,6 +33,21 @@ Use a loop to count by 2 from 0 up to 100. Use another loop to make sure the fir
 Replace the "Hello" string with an instance created out of its corresponding Unicode scalars. You can find the appropriate codes on the internet.
 
 ### Challenge 8: Optionals
-Accessing an optional's value when it is nil will result in a runtime error. Make this mistake by force-unwrapping an optional when it is nil. Examine the error and understand what it is telling you
+Accessing an optional's value when it is nil will result in a runtime error. Make this mistake by force-unwrapping an optional when it is nil. Examine the error and understand what it is telling you.
+
+### Challenge 9: Arrays
+Bronze Challenge: Look at the documentation to locate a var defined on the Arrary type that will tell you whether the array has eny elements inside of it.
+var toDoList = ["Take out garbage", "Pay bills", "Cross of finished items"]
+
+Silver Challenge: Use the array from the bronze challenge and use a loop to reverse the order of the elements in thearray. Log the results to the console. Finally examine the documentation to see if there is a more convenient way to do this operation.
+
+
+
+
+
+
+
+
+
 
 
