@@ -2,7 +2,7 @@
 
 import Cocoa
 
-// It is not uncommon yo place instances of the Array type inside of a dictionary
+// It is not uncommon to place instances of the Array type inside of a dictionary
 // Create a dictionary that represents a state. Your dictionary's keys will refer to counties
 // (to keep it short, only include three counties). Each key should map onto an array that holds
 // five of the zip codes within that county. (You can make up the county names and zip codes.)

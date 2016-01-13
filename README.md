@@ -41,6 +41,13 @@ var toDoList = ["Take out garbage", "Pay bills", "Cross of finished items"]
 
 Silver Challenge: Use the array from the bronze challenge and use a loop to reverse the order of the elements in thearray. Log the results to the console. Finally examine the documentation to see if there is a more convenient way to do this operation.
 
+### Challenge 10: Dictionaries
+It is not uncommon to place instances of the Array type inside of a dictionary. Create a dictionary that represents a state. Your dictionary's keys will refer to counties (to keep it short, only include three counties). Each key should map onto an array that holds
+five of the zip codes within that county. (You can make up the county names and zip codes.)
+
+Finally log only the dictionary's zip codes. Your result should look something like this:
+Georgia has the following zip codes: [30306, 30307, 30308, 30309, 30310]
+
 
 
 
