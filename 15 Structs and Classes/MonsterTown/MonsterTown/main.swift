@@ -14,8 +14,13 @@ myTown.changePopulation(-500)
 let fredTheZombie = Zombie()
 fredTheZombie.town = myTown
 fredTheZombie.terrorizeTown()
-fredTheZombie.terrorizeTown()
-fredTheZombie.town?.printTownDescription()
-
 fredTheZombie.changeName("Fred the Zombie", walksWithLimp: false)
+fredTheZombie.town?.printTownDescription()
+let bladeTheVampire = Vampire()
+bladeTheVampire.town = myTown
+bladeTheVampire.terrorizeTown()
+bladeTheVampire.terrorizeTown()
+bladeTheVampire.town?.printTownDescription()
+
+
 

@@ -17,19 +17,22 @@ class Zombie: Monster {
     var walksWithLimp = true
     
     final override func terrorizeTown() {
+        decrementPopulation()
+        super.terrorizeTown()
+    }
+
+    
+    func changeName(name: String, walksWithLimp: Bool) {
+        self.name = name
+        self.walksWithLimp = walksWithLimp
+    }
+    
+    func decrementPopulation() {
         let amountToDecrement = -10
         if town?.population > 0 && town?.population > abs(amountToDecrement){
             town?.changePopulation(amountToDecrement)
         } else {
             town?.population = 0
         }
-        
-        
-        super.terrorizeTown()
-    }
-    
-    func changeName(name: String, walksWithLimp: Bool) {
-        self.name = name
-        self.walksWithLimp = walksWithLimp
     }
 }

@@ -11,6 +11,7 @@
 		2A3EC65A1C4F7DB80087C612 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3EC6591C4F7DB80087C612 /* Town.swift */; };
 		2A3EC65C1C4FC2220087C612 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3EC65B1C4FC2220087C612 /* Monster.swift */; };
 		2A3EC65E1C4FC56F0087C612 /* Zombie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3EC65D1C4FC56F0087C612 /* Zombie.swift */; };
+		2AF6AC711C5033C600BA71C0 /* Vampire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6AC701C5033C600BA71C0 /* Vampire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		2A3EC6591C4F7DB80087C612 /* Town.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Town.swift; path = ../Town.swift; sourceTree = "<group>"; };
 		2A3EC65B1C4FC2220087C612 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Monster.swift; path = ../Monster.swift; sourceTree = "<group>"; };
 		2A3EC65D1C4FC56F0087C612 /* Zombie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zombie.swift; sourceTree = "<group>"; };
+		2AF6AC701C5033C600BA71C0 /* Vampire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vampire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				2A3EC6591C4F7DB80087C612 /* Town.swift */,
 				2A3EC6521C4F7B830087C612 /* main.swift */,
 				2A3EC65D1C4FC56F0087C612 /* Zombie.swift */,
+				2AF6AC701C5033C600BA71C0 /* Vampire.swift */,
 			);
 			path = MonsterTown;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 				2A3EC6531C4F7B830087C612 /* main.swift in Sources */,
 				2A3EC65E1C4FC56F0087C612 /* Zombie.swift in Sources */,
 				2A3EC65C1C4FC2220087C612 /* Monster.swift in Sources */,
+				2AF6AC711C5033C600BA71C0 /* Vampire.swift in Sources */,
 				2A3EC65A1C4F7DB80087C612 /* Town.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
