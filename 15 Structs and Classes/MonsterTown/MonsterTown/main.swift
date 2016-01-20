@@ -6,12 +6,14 @@
 //  Copyright © 2016 Seab Jackson. All rights reserved.
 //
 
+
 import Foundation
 
 var myTown = Town()
-myTown.changePopulation(500)
+myTown.changePopulation(-500)
 let fredTheZombie = Zombie()
 fredTheZombie.town = myTown
+fredTheZombie.terrorizeTown()
 fredTheZombie.terrorizeTown()
 fredTheZombie.town?.printTownDescription()
 

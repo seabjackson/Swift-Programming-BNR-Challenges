@@ -9,7 +9,7 @@
 import Foundation
 
 struct Town {
-    var population = 5422
+    var population = 525
     var numberOfStoplights = 4
     
     func printTownDescription() {
