@@ -11,7 +11,7 @@ and 0 is positive.
 Check this out:
 
 -128|64|32|16| 8| 4| 2| 1|
-   0| 0| 1| 0| 0| 1| 1| 0| *** This is 32 in decimal. Note the left most digit is 0 X -128.
+   0| 0| 1| 0| 0| 1| 1| 0| *** This is 32 in decimal. Note the left most digit is 0 * -128.
    1| 0| 1| 0| 0| 0| 1| 0| *** This is -94 (1 * -128 + 1 * 32 + 1 * 2 = -128 + 32 + 2).
 
 Another way to find the negative number in binary is to use the two's complement. That is, we
